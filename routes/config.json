@@ -1,0 +1,7 @@
+{
+    "DB_CONNECTION": "mongodb+srv://testUser:testuser123@cluster0.oq0n0.mongodb.net/udemyQuizDatase?retryWrites=true&w=majority",
+    "DB_NAME": "07588c07-77f1-4932-885c-31ff828b235d",
+    "port": "5000",
+    "origin": "*"
+  }
+  

@@ -1,0 +1,30 @@
+{
+  "name": "Rest_Quiz",
+  "version": "1.0.0",
+  "description": "A node restful API for Fetching QuizData from Mongo Cloud Database",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=development&& node server.js",
+    "start-prod": "set NODE_ENV=production&& node server.js"
+  },
+  "keywords": [
+    "node",
+    "udemy",
+    "quiz",
+    "restful",
+    "api"
+  ],
+  "license": "ISC",
+  "author": "Daniel Saneel",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "mongoose": "^5.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
