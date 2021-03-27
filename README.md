@@ -11,4 +11,10 @@ The back-end REST-API is built with node.js and express.js, it has end points to
 The back-end server is deployed over Heroku Cloud platform, the database is hosted on Atlas with AWS. 
 (EndPoint: https://mongo-quiz-rest.herokuapp.com/quizes/QuizCollection)
 
-QuizSchema = ({ questionID: { type: Number, }, questionString: { type: String, }, choices: { type: Array, }, rightChoice: { type: String, }, });
+QuizSchema = 
+ ({ 
+  questionID: { type: Number, }, 
+  questionString: { type: String, }, 
+  choices: { type: Array, }, 
+  rightChoice: { type: String, }, 
+ });
